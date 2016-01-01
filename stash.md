@@ -19,4 +19,9 @@
 
 ## Git RefLog
   git reflog
+  git reflog show name_of_single_branch
   > a list of every change, merge, etc ever made
+  > the reflog is local to your machine only.
+  > in other words it's only tracking your activity.
+
+
