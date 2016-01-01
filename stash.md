@@ -1,4 +1,4 @@
-#Git Notes
+#Stash
 
 ## Git Stash
   git stash -u
