@@ -30,3 +30,17 @@
   git blame --online -- name_of_file
   > checks the most recent commit for every line of the file
   > and who made the changes.
+
+## Reset changes to last commit
+  git checkout .
+
+
+## Undo a Commit
+
+Remove a commit from history and revert to the point where
+the files were staged, right before the commit happened.
+
+  git reset --soft HEAD^
+
+  or create an alias
+  git config --global alias.uncommit 'reset --soft HEAD^'
