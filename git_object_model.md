@@ -30,3 +30,21 @@ A commit file contains
 
 ![diagram]
 (https://thoughtbot-images.s3.amazonaws.com/upcase/git-course/git-base-object-model.png)
+
+```
+  git cat-file -t
+  # outputs type of file i.e. commit, blob
+
+  git cat-file -p
+  # outputs contents of file
+
+```
+
+## Branches
+Are simple objects that contain a reference to a commit object
+.git/refs/heads/master for example contains a pointer to a commit
+on the master branch.
+
+
+![Image of Git
+Objects](https://thoughtbot-images.s3.amazonaws.com/upcase/git-course/git-object-model-complete.png)
