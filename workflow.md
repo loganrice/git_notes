@@ -54,6 +54,7 @@ $ git branch -d <branchName>
 * **option 1** 
 ```
 $ git push origin --delete <branchName>
+```
 * **option 2** We can delete the branch via the GitHub PR page, and then git pull on master,
 letting the fetch prune setting automatically clean up our local reference to
 the remote branch.
